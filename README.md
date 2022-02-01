@@ -104,6 +104,15 @@ If you like the project you can support it with a [PayPal donation](https://payp
 <a href="https://opencollective.com/vvvebjs/backers/12/website"><img src="https://opencollective.com/vvvebjs/backers/12/avatar"></a>
 
 
+For local export
+CHMOD 777 demo folder and subfolders
+create a folder called my-pages and chmod it to 777
+rename editor.php
+open editor.html
+uncomment php lines at the end of the script
+open libs/builder/builder.js
+add at line 1945 :var data = {"title": title, "url": url};
+
 ## License
 
 Apache 2.0
